@@ -1,0 +1,26 @@
+Index: jobs/admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from django.contrib import admin\r\n\r\n# Register your models here.\r\n
+===================================================================
+diff --git a/jobs/admin.py b/jobs/admin.py
+--- a/jobs/admin.py	
++++ b/jobs/admin.py	
+@@ -1,3 +1,17 @@
+ from django.contrib import admin
++from jobs.models import Job, Blog
+ 
+ # Register your models here.
++
++admin.site.register(Job)
++admin.site.register(Blog)
++
++
++@admin.register(Job)
++class Job(admin.ModelAdmin):
++    fields = (('title', 'time'), 'content')
++
++
++@admin.register(Blog)
++class Blog(admin.ModelAdmin):
++    pass
