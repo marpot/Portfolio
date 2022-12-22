@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class Project(models.Model):
+class Job(models.Model):
     title = models.CharField(max_length=25)
     description = models.TextField()
     technology = models.CharField(max_length=100)
@@ -15,3 +15,4 @@ class Blog(models.Model):
     publish_date = models.DateTimeField()
     content = models.TextField()
     image = models.ImageField(upload_to='images/')
+
