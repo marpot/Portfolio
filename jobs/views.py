@@ -1,5 +1,8 @@
 from django.shortcuts import render
+from jedi.api import project
+
 from projects.models import Project
+
 
 # Every view function you create needs to have a context dictionary.
 
@@ -10,7 +13,8 @@ def project_index(request):
     }
     return render(request, 'project_index.html', context)
 
-def project_detail(request):
+
+def project_detail(request, pk=None):
     projects = Project.objects.get(pk=pk)
     context = {
         'project': project
