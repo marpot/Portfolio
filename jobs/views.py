@@ -1,8 +1,11 @@
 from django.shortcuts import render
 from jedi.api import project
+from django.http import HttpResponse
 
 from projects.models import Project
 
+def home_page(request):
+    return render(request, 'templates/home.html')
 
 # Every view function you create needs to have a context dictionary.
 
