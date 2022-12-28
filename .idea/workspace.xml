@@ -5,13 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22034317-443c-443e-a930-112006d6f60b" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/blog/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/project_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/project_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/home_page/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/home_page/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/migrations/0002_alter_project_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/project_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/project_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/project_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/project_index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,14 +85,43 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mpotoczny/PycharmProjects/Portfolio/blog/templates&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\blog\templates" />
+      <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\static" />
+      <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\blog\static" />
+      <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\blog\templates\home_page" />
       <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio\portfolio" />
       <recent name="C:\Users\mpotoczny\PycharmProjects\Portfolio" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for tests.AboutTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jobs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.AboutTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.AboutTestCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

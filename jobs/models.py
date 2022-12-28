@@ -38,6 +38,7 @@ class Client(models.Model):
     def __str__(self):
         return self.name
 
+#Job model
 class Job(models.Model):
     title = models.CharField(max_length=25)
     description = models.TextField()
@@ -45,10 +46,16 @@ class Job(models.Model):
     image = models.FilePathField(path="images/")
     github_url = models.URLField(max_length=100, null=True)
 
-
+#Blog model
 class Blog(models.Model):
     title = models.CharField(max_length=255)
     publish_date = models.DateTimeField()
     content = models.TextField()
     image = models.ImageField(upload_to='images/')
+
+class Project(models.Model):
+    title = models.CharField(max_length=255)
+    technology = models.CharField(max_length=255)
+    project = models.DateTimeField()
+    github_url = models.CharField(max_length=255)
 

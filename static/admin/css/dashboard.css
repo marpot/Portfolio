@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+        box-shadow: inset 36em 0 20em 1em #222222;
+      opacity: 0.9;
+  background-image: url(../images/photo.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 100px;
+}
+.site-footer {
+  background: #222222;
+  opacity: 1;
+}
