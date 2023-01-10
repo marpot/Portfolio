@@ -7,5 +7,5 @@ from jobs.views import (home)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view (template_name="home_page/home.html"))
+    path('', TemplateView.as_view (template_name="home.html"))
 ]
